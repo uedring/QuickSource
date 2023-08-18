@@ -1,0 +1,27 @@
+.title {
+  margin: 0 auto;
+  font-weight: 200;
+}
+
+.language_box{
+  padding: 15px;
+  font-size: 20px;
+  min-width: 150px;
+    text-align: center;
+    overflow: hidden;
+    animation: show_language .5s;
+}
+
+@keyframes show_language {
+  0%{
+    transform: translateY(100vh);
+  }
+
+  80%{
+    transform: translateY(-50px);
+  }
+
+  100%{
+    transform: translateY(0);
+  }
+}
