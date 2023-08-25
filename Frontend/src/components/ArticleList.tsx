@@ -53,9 +53,9 @@ const ArticleList: React.FC<P> = (props) => {
       pageSize: 5,
     }}
     dataSource={articleList.slice(props.start,props.top+props.start)}
-    footer={
-      <span>马上有码 - 倾情奉献</span>
-    }
+    // footer={
+    //   <span>马上有码 - 倾情奉献</span>
+    // }
     renderItem={(item) => (
       <List.Item
         key={item.id}

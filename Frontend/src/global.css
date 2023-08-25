@@ -1,3 +1,26 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.footer .beian-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: #000000a6;
+}
+.footer .beian-link img{
+  width: 20px;
+  margin-right: 5px;
+}
+.footer .beian-link a{
+  color: #000000a6;
+}
+
 
 .ant-menu-item-selected{
     border-radius: 0 !important;
