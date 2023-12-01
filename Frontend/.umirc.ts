@@ -37,6 +37,11 @@ export default defineConfig({
       path: '/hot',
       component: './HotList',
     },
+    {
+      name: '关于',
+      path: '/about',
+      component: './Home/About',
+    },
   ],
   npmClient: 'yarn',
 });

@@ -35,7 +35,7 @@ export const layout: RuntimeConfig['layout'] = () => {
           <a href="https://www.beian.gov.cn/" target='_blank'>
             <img src='/beian.gov.png' />
 
-            沪公网安备 - 待审</a>
+            赣公网安备36072702000173号</a>
         </p>
 
       </div>
